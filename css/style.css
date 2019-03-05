@@ -1,0 +1,112 @@
+div#header {
+    display: block;
+    float: initial;
+}
+
+div#div-logo {
+    display: block;
+    float: left;
+}
+
+div#div-texto {
+    display: block;
+    float: right;
+    text-align: right;
+}    
+
+div#corpo-form {
+    display: block;
+    width: 100%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    text-align: center;
+}
+
+p.desc-input {
+    text-align: center;
+    font-size: 80%;
+}
+
+p.desc-input-head {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-spacing: 5px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+p#texto-header {
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    color: #186e18;
+    font-weight: bold;
+}
+
+img#logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+input.input-full-row {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+td.vertical-desc-esq p {
+    transform: rotate(270deg); 
+    text-align: center;
+    vertical-align: middle; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+}
+td.vertical-desc-dir p {
+    transform: rotate(90deg); 
+    text-align: center;
+    vertical-align: middle; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+}
+
+div.div-row
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+div.div-col
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+}
+
+div.div-row#l-r
+{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: auto; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
